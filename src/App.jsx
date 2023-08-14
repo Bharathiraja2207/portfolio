@@ -235,7 +235,7 @@ Markdown text into the corresponding HTML code.
   <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt="green"
         height="140"
         image="https://raulwebdev.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbookme.d2a81830.png&w=1920&q=75"
       />
