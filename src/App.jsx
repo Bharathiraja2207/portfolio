@@ -76,7 +76,7 @@ export default function App() {
 
 function Frontpage() {
 const [text]=useTypewriter({
-  words:['i am a fullstack developer','i enjoy coding','keep scrooling!'],loop:{},
+  words:['I am a fullstack developer','I enjoy coding','keep scrooling!'],loop:{},
 })
   return (
     <div > 
@@ -136,6 +136,8 @@ function Skills() {
     <p><b>JavaScript</b></p>
     <p><b>ReactJS</b></p>
     <p><b>BootStrap</b></p>
+
+
     </Card> 
     <Card sx={{ minWidth: 250,minHeight: 345}}>
      <div  className='skill_heading' style={{backgroundColor:'#2567f3'}}><img style={{height:'45px',width:'50px'}}src='https://img.freepik.com/free-icon/code_318-932055.jpg?size=626&ext=jpg&ga=GA1.2.474052624.1691568044&semt=ais'></img> <h2 style={{color:'white'}}>Backend</h2></div>
@@ -181,7 +183,7 @@ Markdown text into the corresponding HTML code.
         </Typography>
       </CardContent>
       <CardActions>
-      <a href = "https://dashing-lokum-4209d2.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
+      <a href = "https://merry-rabanadas-1fe87d.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
       </CardActions>
     </Card>
     </div>
@@ -192,7 +194,7 @@ Markdown text into the corresponding HTML code.
         component="img"
         alt="green iguana"
         height="140"
-        image="https://raulwebdev.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbookme.d2a81830.png&w=1920&q=75"
+        image="https://i.ibb.co/NxHrNJR/Screenshot-21.png"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -203,7 +205,7 @@ Markdown text into the corresponding HTML code.
         </Typography>
       </CardContent>
       <CardActions>
-      <a href = "https://ubiquitous-tapioca-60a2f3.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
+      <a href = "https://meek-pie-e3a796.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
       </CardActions>
     </Card>
     </div>
@@ -214,7 +216,7 @@ Markdown text into the corresponding HTML code.
         component="img"
         alt="green iguana"
         height="140"
-        image="https://raulwebdev.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbookme.d2a81830.png&w=1920&q=75"
+        image="https://i.ibb.co/2KvxTg4/Screenshot-23.png"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -225,7 +227,7 @@ Markdown text into the corresponding HTML code.
         </Typography>
       </CardContent>
       <CardActions>
-      <a href = "https://github.com/Bharathiraja2207"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
+      <a href = "https://regal-cactus-bcd487.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
       </CardActions>
     </Card>
     
@@ -237,22 +239,22 @@ Markdown text into the corresponding HTML code.
         component="img"
         alt="green"
         height="140"
-        image="https://raulwebdev.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbookme.d2a81830.png&w=1920&q=75"
+        image="https://i.ibb.co/N7BCds9/Screenshot-24.png"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          EBAY
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          Ebay is one of the selling and buying app through online.
         </Typography>
       </CardContent>
       <CardActions>
-      <a href = "https://github.com/Bharathiraja2207"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
+      <a href = "https://statuesque-taffy-03b890.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
       </CardActions>
     </Card>
     </div>
+    
     </div>
     </div>
   )
@@ -262,7 +264,7 @@ function Contect() {
   return (
     <div>
       <div>
-      <h2 style={{textAlign:'center'}}>CONTACT</h2>
+      <h2 style={{textAlign:'center'}}><h3>CONTACT</h3></h2>
   </div>
       <div className='contact_content'>
       <Card className='contact_icon' sx={{ maxHeight:97,maxWidth: 345,minHeight:90,minWidth:250,backgroundColor:'#e5e6e7'}}>
