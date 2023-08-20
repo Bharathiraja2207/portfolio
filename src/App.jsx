@@ -203,6 +203,7 @@ Markdown text into the corresponding HTML code.
         <Typography variant="body2" color="text.secondary">
           Book my show is a ticket booking app through online.
         </Typography>
+        <br></br>
       </CardContent>
       <CardActions>
       <a href = "https://meek-pie-e3a796.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
@@ -225,6 +226,7 @@ Markdown text into the corresponding HTML code.
         <Typography variant="body2" color="text.secondary">
           Buy fast is a basic food delivery app through online.
         </Typography>
+        <br></br>
       </CardContent>
       <CardActions>
       <a href = "https://regal-cactus-bcd487.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
@@ -248,6 +250,7 @@ Markdown text into the corresponding HTML code.
         <Typography variant="body2" color="text.secondary">
           Ebay is one of the selling and buying app through online.
         </Typography>
+        <br></br>
       </CardContent>
       <CardActions>
       <a href = "https://statuesque-taffy-03b890.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
