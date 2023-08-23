@@ -34,7 +34,8 @@ export default function App() {
           >
             <MenuIcon />
           </IconButton> */}
-          <img style={{height1:'25px',width:'25px'}} src='https://cdn-icons-png.flaticon.com/128/10846/10846349.png'></img>
+           <Link to='front' smooth={true}><img style={{marginTop:"10%",height:'25px',width:'25px'}} src='https://cdn-icons-png.flaticon.com/128/10846/10846349.png'></img></Link>
+          
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           BHARATHI RAJA A
           </Typography>
@@ -81,7 +82,7 @@ const [text]=useTypewriter({
   return (
     <div > 
       <div className='resume_fit'>
-      <a href='https://drive.google.com/file/d/16nbuxWrctSActzxiCclLs67aEb4Jr926/view?usp=drive_link'target="_blank"><Button  variant="contained" color="success" size="large">resume  <img style={{height1:'25px',width:'25px'}} src='https://cdn-icons-png.flaticon.com/128/324/324999.png'></img></Button></a>
+      <a href=' 'target="_blank"><Button  variant="contained" color="success" size="large">resume  <img style={{height1:'25px',width:'25px'}} src='https://cdn-icons-png.flaticon.com/128/324/324999.png'></img></Button></a>
       </div>
       
     <div className='front_flex' >
@@ -166,7 +167,7 @@ function Projects() {
     <div className='project'>
      
       <div className='project_content'>
-  <Card sx={{ maxWidth: 345 }}>
+  <Card sx={{ maxWidth: 345,minHeight:500 }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -181,15 +182,26 @@ function Projects() {
         React-markdown is a React Component that converts
 Markdown text into the corresponding HTML code.
         </Typography>
+        <br></br>
+        <Typography gutterBottom variant="h6" color="text.secondary" component="div">
+        SKILLS USED:
+        </Typography>
+        <Typography  variant="body2" color="text.secondary">
+        HTML,CSS,JavaScript,MaterialUI,Formik, Reactjs,Bootstrap,NodeJS,MongoDB, Express,jsonwebtoken,nodemailer
+        </Typography>
       </CardContent>
       <CardActions>
       <a href = "https://merry-rabanadas-1fe87d.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
+      </CardActions>
+      <CardActions>
+      <a href = "https://github.com/Bharathiraja2207/reactmdn"target="_blank"><Button sx={{minWidth:"25px",marginLeft:'30%'}} variant="contained" color="primary">GitFrontEnd</Button></a>
+      <a href = "https://github.com/Bharathiraja2207/reactmdn_backend"target="_blank"><Button sx={{minWidth:"25px",marginLeft:'30%'}} variant="contained" color="primary">Gitbackend</Button></a>
       </CardActions>
     </Card>
     </div>
 
     <div  className='project_content'>
-  <Card sx={{ maxWidth: 345 }}>
+  <Card sx={{ maxWidth: 345,minHeight:500 }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -204,15 +216,27 @@ Markdown text into the corresponding HTML code.
           Book my show is a ticket booking app through online.
         </Typography>
         <br></br>
+        <Typography gutterBottom variant="h6" color="text.secondary" component="div">
+        SKILLS USED:
+        </Typography>
+        <Typography  variant="body2" color="text.secondary">
+        HTML,CSS,JavaScript,MaterialUI,Formik, Reactjs,NodeJS,MongoDB,Express,jsonwebtoken, nodemailer,qrcode,Razorpay
+        </Typography>
+        <br></br>
       </CardContent>
       <CardActions>
       <a href = "https://meek-pie-e3a796.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
       </CardActions>
+      <CardActions>
+      <a href = "https://github.com/Bharathiraja2207/ticketbooking"target="_blank"><Button sx={{minWidth:"25px",marginLeft:'30%'}} variant="contained" color="primary">GitFrontEnd</Button></a>
+      <a href = "https://github.com/Bharathiraja2207/ticketbooking-backend"target="_blank"><Button sx={{minWidth:"25px",marginLeft:'30%'}} variant="contained" color="primary">Gitbackend</Button></a>
+      </CardActions>
+
     </Card>
     </div>
 
     <div  className='project_content'>
-  <Card sx={{ maxWidth: 345 }}>
+  <Card sx={{ maxWidth: 345,minHeight:500 }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -227,9 +251,20 @@ Markdown text into the corresponding HTML code.
           Buy fast is a basic food delivery app through online.
         </Typography>
         <br></br>
+        <Typography gutterBottom variant="h6" color="text.secondary" component="div">
+        SKILLS USED:
+        </Typography>
+        <Typography  variant="body2" color="text.secondary">
+        HTML,CSS,JavaScript,MaterialUI,Bootstrap, Reactjs,Formik,Razorpay,NodeJS,MongoDB, Express,jsonwebtoken,nodemailer
+        </Typography>
+        <br></br>
       </CardContent>
       <CardActions>
       <a href = "https://regal-cactus-bcd487.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
+      </CardActions>
+      <CardActions>
+      <a href = "https://github.com/Bharathiraja2207/buyfast"target="_blank"><Button sx={{minWidth:"25px",marginLeft:'30%'}} variant="contained" color="primary">GitFrontEnd</Button></a>
+      <a href = "https://github.com/Bharathiraja2207/foodbackend"target="_blank"><Button sx={{minWidth:"25px",marginLeft:'30%'}} variant="contained" color="primary">Gitbackend</Button></a>
       </CardActions>
     </Card>
     
@@ -251,9 +286,20 @@ Markdown text into the corresponding HTML code.
           Ebay is one of the selling and buying app through online.
         </Typography>
         <br></br>
+        <Typography gutterBottom variant="h6" color="text.secondary" component="div">
+        SKILLS USED:
+        </Typography>
+        <Typography  variant="body2" color="text.secondary">
+        HTML,CSS,JavaScript,MaterialUI,Bootstrap, Reactjs,NodeJS,MongoDB,Express, jsonwebtoken,nodemailer
+        </Typography>
+        <br></br>
       </CardContent>
       <CardActions>
       <a href = "https://statuesque-taffy-03b890.netlify.app/"target="_blank"><Button sx={{minWidth:"250px",marginLeft:'16%'}} variant="contained" color="primary">go project</Button></a>
+      </CardActions>
+      <CardActions>
+      <a href = "https://github.com/Bharathiraja2207/Ebay"target="_blank"><Button sx={{minWidth:"25px",marginLeft:'30%'}} variant="contained" color="primary">GitFrontEnd</Button></a>
+      <a href = "https://github.com/Bharathiraja2207/EBAYBACKEND"target="_blank"><Button sx={{minWidth:"25px",marginLeft:'30%'}} variant="contained" color="primary">Gitbackend</Button></a>
       </CardActions>
     </Card>
     </div>
