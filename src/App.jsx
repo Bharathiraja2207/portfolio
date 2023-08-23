@@ -82,7 +82,7 @@ const [text]=useTypewriter({
   return (
     <div > 
       <div className='resume_fit'>
-      <a href=' 'target="_blank"><Button  variant="contained" color="success" size="large">resume  <img style={{height1:'25px',width:'25px'}} src='https://cdn-icons-png.flaticon.com/128/324/324999.png'></img></Button></a>
+      <a href='https://drive.google.com/file/d/16nbuxWrctSActzxiCclLs67aEb4Jr926/view'target="_blank"><Button  variant="contained" color="success" size="large">resume  <img style={{height1:'25px',width:'25px'}} src='https://cdn-icons-png.flaticon.com/128/324/324999.png'></img></Button></a>
       </div>
       
     <div className='front_flex' >
